@@ -1,0 +1,35 @@
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(58, 58, 58, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  animation: fade 0.25s linear;
+}
+
+.content {
+  position: null;
+  height: 90%;
+  width: 550px;
+  background: #fff;
+  overflow: auto;
+  border: none;
+  -webkit-overflow-scrolling: touch;
+  outline: none;
+  padding: 20px;
+  border-radius: 25px;
+}
