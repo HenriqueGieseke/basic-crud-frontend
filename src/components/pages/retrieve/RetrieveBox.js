@@ -8,15 +8,9 @@ const RetrieveBox = () => {
     <Container>
       <ArrivalBox>
         <Wrapper>
-          <Link to="/retrieve/random">
-            retrieve one random user
-          </Link>
-          <Link to="/retrieve/byName">
-            retrieve by name
-          </Link>
-          <Link to="/retrieve/byRegion">
-            retrieve by region
-          </Link>
+          <Link to="/retrieve/random">retrieve one random user</Link>
+          <Link to="/retrieve/byName">retrieve by name</Link>
+          <Link to="/retrieve/byRegion">retrieve by region</Link>
         </Wrapper>
       </ArrivalBox>
       <DatabaseInfoBox />
@@ -80,6 +74,9 @@ const Wrapper = styled.div`
     margin-bottom: 2rem;
     color: black;
     cursor: pointer;
+    @media (max-width: 950px) {
+      font-size: 1.2rem;
+    }
 
     &:hover {
       color: #707070;
