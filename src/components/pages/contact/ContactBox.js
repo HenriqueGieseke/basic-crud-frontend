@@ -69,6 +69,9 @@ const Wrapper = styled.div`
   
 
   p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
     margin-bottom: 1rem;
     @media (max-width: 950px) {
     font-size: 0.9rem;
