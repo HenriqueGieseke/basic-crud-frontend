@@ -91,7 +91,7 @@ const MobileLinksWrapper = styled.div`
     a {
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 5px solid;
     border-bottom: 1px solid #f3f3f3;
     transition: 0.4s;
