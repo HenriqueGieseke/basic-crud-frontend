@@ -399,10 +399,6 @@ const TitleWrapper = styled.div`
 `;
 
 const InputWrapper = styled.div`
-  @media (max-width: 470px) {
-    flex-direction: column;
-  }
-  
   width: 70%;
   margin-bottom: 0.5rem;
 
@@ -476,12 +472,20 @@ const StyledSelect = styled.select`
 `;
 
 const LargeInput = styled.input`
+  @media (max-width: 470px) {
+    width: 10%;
+  }
+
   width: 60%;
   background: #f3f3f3;
   border: none;
 `;
 
 const SmallInput = styled.input`
+  @media (max-width: 470px) {
+    width: 10%;
+  }
+
   width: 20%;
   background: #f3f3f3;
   border: none;

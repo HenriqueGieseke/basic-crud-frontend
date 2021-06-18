@@ -18,6 +18,10 @@ const UpdateUser = () => {
 
 const Container = styled.div`
   height: 100%;
+
+  @media (max-width: 950px) {
+    min-height: 800px;
+  }
 `;
 
 const MainContainer = styled.section`
