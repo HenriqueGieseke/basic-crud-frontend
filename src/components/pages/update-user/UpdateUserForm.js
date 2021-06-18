@@ -418,6 +418,9 @@ const InputWrapper = styled.div`
     border-bottom: 1px solid #ffffff;
     border-radius: 5px;
     transition: 0.2s;
+    @media (max-width: 470px) {
+      width: 100px;
+    }
 
     &:hover {
       border-bottom: 1px solid black;
@@ -451,6 +454,9 @@ const SectionWrapper = styled.div`
     border-bottom: 90% 1px solid #ffffff;
     border-radius: 5px;
     transition: 0.2s;
+    @media (max-width: 470px) {
+      width: 100px;
+    }
 
     &:hover {
       border-bottom: 1px solid black;
@@ -485,6 +491,7 @@ const StyledButton = styled.button`
   height: 34px;
   width: 70px;
   margin-top: 1rem;
+  margin-right: 4px;
   background: #000000;
   border-radius: 5px;
   border: none;
