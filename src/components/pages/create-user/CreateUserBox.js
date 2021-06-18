@@ -473,7 +473,7 @@ const StyledSelect = styled.select`
 
 const LargeInput = styled.input`
   @media (max-width: 470px) {
-    width: 10%;
+    width: 100px;
   }
 
   width: 60%;
@@ -483,7 +483,7 @@ const LargeInput = styled.input`
 
 const SmallInput = styled.input`
   @media (max-width: 470px) {
-    width: 10%;
+    width: 100px;
   }
 
   width: 20%;
