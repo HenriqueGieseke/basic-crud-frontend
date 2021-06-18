@@ -399,6 +399,10 @@ const TitleWrapper = styled.div`
 `;
 
 const InputWrapper = styled.div`
+  @media (max-width: 470px) {
+    flex-direction: column;
+  }
+  
   width: 70%;
   margin-bottom: 0.5rem;
 
