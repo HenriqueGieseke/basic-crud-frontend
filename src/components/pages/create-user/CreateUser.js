@@ -20,7 +20,7 @@ const Container = styled.div`
   height: 100%;
 
   @media (max-width: 950px) {
-    min-height: 1750px;
+    min-height: 1150px;
   }
 `;
 
